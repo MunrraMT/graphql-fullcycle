@@ -1,0 +1,30 @@
+{
+  "name": "graphql-fullcycle",
+  "version": "1.0.0",
+  "description": "GraphQL: O mínimo que um Full Cycle Developer precisa saber. feat: Rodrigo Branas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MunrraMT/graphql-fullcycle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MunrraMT/graphql-fullcycle/issues"
+  },
+  "homepage": "https://github.com/MunrraMT/graphql-fullcycle#readme",
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "axios": "^1.2.5",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "type": "module"
+}
